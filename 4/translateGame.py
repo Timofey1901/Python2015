@@ -14,3 +14,22 @@ while True:
         break
     dictionary[key] = value
 
+print("")
+
+scores = 0
+error = 0
+
+for key, value in dictionary.items():
+    translation = input("Введи перевод слова " + key + ": ").title()
+    if translation == value:
+        scores += 1
+print(scores)
+
+"""
+Подсчёт ошибок
++Дружелюбие
+Перемешать элементы словаря random.shuffle()
+Проигрыш при условии 3 ошибок+
+Перевести все вводные строки к нижнему регистру
+Удалить пробелы в вводных строках
+"""

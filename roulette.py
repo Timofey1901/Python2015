@@ -2,6 +2,7 @@ import random
 
 
 num = int(input("Под какое количество патронов обойма?: "))
+num = int(input("Под какое количество патронов обойма?: "))
 real_bullets = int(input("Сколько патронов в обойме?: "))
 bullets = [0 for i in range(num-real_bullets)]
 bullets += [1 for j in range(real_bullets)]

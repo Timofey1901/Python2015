@@ -6,6 +6,8 @@
 #         numbers[i-1] *= i
 #     print(numbers)
 
-numbers = [[value * i for value in range(1,11)] for i in range(1,11)]
-for elem in numbers:
-    print(*elem)
+a = [1,2,3]
+stroka = ""
+for i in a:
+    stroka += str(i)
+print(stroka)
